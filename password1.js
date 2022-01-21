@@ -6,7 +6,7 @@ const reader = readline.createInterface({
 });
 
 reader.question(
-  "Welcome to Andrew's Super Cool Password Validator! Your password needs to be 10 characters long and contain a Special character. What passsword would you like to validate?",
+  "Welcome to Andrew's Super Cool Password Validator! Your password needs to be at least 10 characters long and contain a Special character. What passsword would you like to validate?",
   function (input) {
     let SP = 0;
     let LP = 0;
